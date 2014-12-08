@@ -1,0 +1,120 @@
+/*
+ 
+ Skellington v0.01
+ Copyright 2014, Paul Williamson
+ http://skellington.wishynet.co.uk
+ Free to use under the MIT license.
+ http://opensource.org/licenses/MIT
+ 07/04/2014
+ 
+ Inspiration and Thanks go to:
+ Dave Gamache and Skeleton: 	http://www.getskeleton.com
+ Joe Richardson and Lemonade:	http://lemonade.im
+ Chris Coyer and CSS Tricks:	http://css-tricks.com
+ 
+ Thank you for using Skellington!
+
+*/
+
+
+/* 
+ 
+ Contents
+ ==================================================
+
+ 1.0 - Project Styles
+ 2.0 - Media Queries
+ 3.0 - Font-Face
+
+*/
+
+
+/* 
+
+ 1.0 - Project Styles
+ ================================================== 
+ 
+*/
+
+/* header styles */
+
+
+/* content styles */
+
+
+/* sidebar styles */
+
+
+/* footer styles */
+
+footer
+{
+	text-align: center;
+}
+
+
+
+
+/* 
+
+ 2.0 - Media Queries
+ ================================================== 
+ 
+*/
+
+/* Mobile (Landscape) */
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+	 
+}
+
+/* Tablet (Portrait) */
+@media only screen and (min-width: 768px)
+{
+
+}
+
+/* Tablet (Landscape) or Desktop (960 Grid) */
+@media only screen and (min-width: 960px)
+{
+
+}
+
+/* Large Screens 1280 (and beyond) */
+
+@media only screen and (min-width: 1280px)
+{
+
+}
+
+
+
+
+/* 
+
+ 3.0 - Font-Face
+ ================================================== 
+ 
+ This is the proper syntax for an @font-face file
+ Just create a "fonts" folder at the root,
+ copy your FontName into code below and remove
+ comment brackets
+	
+*/
+
+
+/*	
+ 
+@font-face 
+{
+    font-family: 'FontName';
+    src: url('../fonts/FontName.eot');
+    src: url('../fonts/FontName.eot?iefix') format('eot'),
+         url('../fonts/FontName.woff') format('woff'),
+         url('../fonts/FontName.ttf') format('truetype'),
+         url('../fonts/FontName.svg#webfontname') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+*/

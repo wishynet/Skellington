@@ -1,0 +1,45 @@
+/*
+
+ Theme Name: 		Wishbone
+ Theme URI: 		http://wishbone.wishynet.co.uk
+ Description: 		Wishbone is a multi purpose Wordpress theme. Wishbone supports all standard Wordpress features while adding a few little extras.  
+ Version: 			1.00
+ Author: 			Paul Williamson
+ Author URI: 		http://www.wishynet.co.uk
+ Tags:				black, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, sticky-post, flexible-header, full-width-template, post-formats, rtl-language-support, theme-options, translation-ready
+ Text Domain:		wishbone
+ License: 			GNU General Public License v2.0
+ License URI: 		http://www.gnu.org/licenses/gpl-2.0.html
+
+
+ Wishbone WordPress Theme, Copyright 2013 wishynet.co.uk
+ Wishbone is distributed under the terms of the GNU GPL
+
+
+ Notes:
+ These files are listed in cascading order, with files at the bottom overwriting CSS rules that come before.
+ 
+ grid.css - a simple grid system for handling columns responsively.
+ base.css - a set of core html styles that can be gracefull degraded to from any other styles.
+ project.css - a file to host any additional styles on top of the grid and base styles.
+ 
+ Additional files can also be added here if necessary by simply adding additional lines.
+ 
+ A number of modules used for specific plugins or platforms compatibale with the Skellington 
+ Boilerplate can be found in the 'modules' subdirectory (see examples below).
+
+*/
+
+
+@import url( 'stylesheets/grid.css' );
+@import url( 'stylesheets/base.css' );
+@import url( 'stylesheets/project.css' );
+
+/* module examples */
+/*
+@import url( 'stylesheets/modules/bbpress.css' );
+@import url( 'stylesheets/modules/buddypress.css' );
+@import url( 'stylesheets/modules/woocommerce.css' );
+*/
+
+/* END OF FILE */
