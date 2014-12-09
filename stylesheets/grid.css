@@ -62,13 +62,11 @@
 
 [class*='column']
 {
-  /*padding-right: 20px;*/
   float: left;
 }
 
 [class*='column']:last-of-type
 {
-  /*padding-right: 0;*/
   float: right;
 }
 
