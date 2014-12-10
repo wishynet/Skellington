@@ -151,7 +151,10 @@
  be added to expand on the available selections.
  
  Also, padding-right has returned here so that guttering works
- correctly on desktop style layouts. 
+ correctly on desktop style layouts.
+ 
+ Finally, padding-right is removed from the last column in a 
+ contained row and also from the sixteen.columns class. 
 
 */
 
@@ -168,6 +171,8 @@
     	padding-right: 20px;
     }
     
+    .container .column:last-of-type,
+    .container .columns:last-of-type,
     .container .sixteen.columns
 	{ 
 		padding-right: 0;
